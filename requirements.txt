@@ -7,3 +7,4 @@ openai
 faiss-cpu
 langchain-community
 langchain_openai
+langgraph
