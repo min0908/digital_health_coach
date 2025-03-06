@@ -4,7 +4,7 @@ from langgraph.prebuilt import create_react_agent
 import streamlit as st
 
 
-def create_agent_executor(model_name="gpt-4o", tools=[]):
+def create_agent_executor(model_name="gpt-4o-mini", tools=[]):
     # 메모리 설정
     memory = MemorySaver()
 
