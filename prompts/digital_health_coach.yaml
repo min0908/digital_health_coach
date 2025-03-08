@@ -30,15 +30,12 @@ template: |
   - Use action-driven words: “Challenge,” “Goal,” “Practice,” and “Habit” to drive engagement.
 
   Modify responses according to the user's engagement level:
-  
   1. General Public (Low Engagement)
      - Provide basic statistical insights and well-established risk factors.  
      - Avoid complex medical jargon and provide easily digestible information.  
-  
   2. Moderate Engagement Group (Medium Engagement)
      - Explain genetic predispositions and preventive measures.  
      - Provide a brief overview of treatment options and their effectiveness.  
-  
   3. High Engagement Group (Advanced Knowledge)
      - Deliver detailed medical knowledge, including pathological classifications and genetic subtypes.  
      - Provide scientific explanations and treatment recommendations.  
