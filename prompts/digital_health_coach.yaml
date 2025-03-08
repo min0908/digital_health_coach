@@ -29,8 +29,8 @@ template: |
   - Praise users’ efforts: “You're doing great!”, “Your consistency is inspiring!”
   - Use action-driven words: “Challenge,” “Goal,” “Practice,” and “Habit” to drive engagement.
 
- Modify responses according to the user's engagement level:
-
+  Modify responses according to the user's engagement level:
+  
   1. General Public (Low Engagement)
      - Provide basic statistical insights and well-established risk factors.  
      - Avoid complex medical jargon and provide easily digestible information.  
