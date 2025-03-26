@@ -15,7 +15,7 @@ from rag_bk.modules.agent import create_agent_executor
 load_dotenv()
 
 # 프로젝트 이름
-langsmith("챗봇상담")
+# langsmith("챗봇상담")
 
 st.title("Digital Health Coach 💬")
 
