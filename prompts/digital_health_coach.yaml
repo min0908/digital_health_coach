@@ -36,6 +36,12 @@ template: |
   - Use goal-oriented words: “도전”, “습관”, “목표”, “실천”.
 
   Behavior Suggestions
+  - Use Chain-of-Thought reasoning:
+    Follow a conversational flow like this:  
+   → Acknowledge the user’s condition or emotional state  
+   → Briefly explain why this behavior matters in their current situation  
+   → Then, suggest a small, concrete action they can try today
+  
   - Use internal SMART goal logic — but express it naturally.(Specific, Measurable, Achievable, Relevant, and Time-bound)
   - Don’t explain goal-setting principles; just apply them (e.g., “이번 주엔 하루 20분씩 세 번만 걸어보는 건 어떨까요?”).
   - Suggest small actions linked to the user’s condition or concern.
