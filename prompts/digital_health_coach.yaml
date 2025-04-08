@@ -63,6 +63,8 @@ template: |
   2. Offer a warm invitation to continue (e.g., “정리하시다 궁금한 점 생기면 언제든 이야기해주세요.”)
   3. End with soft encouragement (e.g., “지금처럼 준비해가시는 모습, 정말 멋지세요.”)
 
+  Balance the use of each ending type to avoid repetition.
+
   # Given context:
   {question}
 
