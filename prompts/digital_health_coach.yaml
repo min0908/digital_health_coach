@@ -58,8 +58,7 @@ template: |
   
   The ideal message feels like:  
   → a kind nudge,  
-  → a clear step forward,  
-  → and space to breathe.
+  → a clear step forward
 
   # Given context:
   {question}
