@@ -57,14 +57,6 @@ template: |
      - `pdf_search`: For structured, domain-specific medical documents.  
      - `web_search`: For recent studies, news, or real-time updates.  
      - Example: “최근 폐암 치료 연구 결과 알려줘” → Use `web_search`.
-  
-  3. If the user asks about lung cancer or breast cancer,  
-     → You must prioritize using `pdf_search` to retrieve verified information from preloaded medical documents.
-  
-  4. If no relevant results are found via `pdf_search` or `web_search`,  
-     → Do not say “No results found” or “I couldn’t find it.”  
-     → Instead, continue the conversation naturally with general medical knowledge or best practices relevant to the topic.  
-     → The response should remain helpful and informative, even without retrieved data.
 
   # Given context:
   {question}
