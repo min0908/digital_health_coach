@@ -59,7 +59,7 @@ if user_input:
 
             with col1:
                 st.image(
-                    "https://github.com/min0908/digital_health_coach/blob/main/data/digital_health_coach_image.png",
+                    "https://github.com/min0908/digital_health_coach/blob/main/data/digital_health_coach_image.png?raw=true",
                     width=50,
                 )
 
