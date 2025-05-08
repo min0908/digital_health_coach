@@ -51,6 +51,8 @@ if user_input:
     agent = st.session_state["react_agent"]
     if agent is not None:
         config = {"configurable": {"thread_id": st.session_state["thread_id"]}}
+
+        # 사용자 메시지 출력
         st.chat_message("user").write(user_input)
 
         # 챗봇 응답 (스트리밍 + 이미지 함께 출력)
@@ -85,23 +87,66 @@ if user_input:
             )
         add_message("assistant", agent_answer)
 
-        
-        # with st.chat_message("assistant"):
-        #     container = st.empty()
-        #     container_messages, tool_args, agent_answer = stream_handler(
-        #         container,
-        #         agent,
-        #         {"messages": [("human", user_input)]},
-        #         config,
-        #     )
-        #     add_message("user", user_input)
-        #     for tool_arg in tool_args:
-        #         add_message(
-        #             "assistant",
-        #             tool_arg["tool_result"],
-        #             "tool_result",
-        #             tool_arg["tool_name"],
-        #         )
-        #     add_message("assistant", agent_answer)
     else:
         warning_msg.warning("개인정보 입력을 완료해주세요.")
+
+
+
+# if user_input:
+#     agent = st.session_state["react_agent"]
+#     if agent is not None:
+#         config = {"configurable": {"thread_id": st.session_state["thread_id"]}}
+#         st.chat_message("user").write(user_input)
+
+#         # 챗봇 응답 (스트리밍 + 이미지 함께 출력)
+#         with st.chat_message("assistant"):
+#             col1, col2 = st.columns([1, 9])
+
+#             with col1:
+#                 st.image(
+#                     "https://raw.githubusercontent.com/min0908/digital_health_coach/main/data/digital_health_coach_image.png",
+#                     width=50,
+#                 )
+
+#             with col2:
+#                 container = st.empty()  # 여기로 스트리밍 응답이 실시간 출력됨
+
+#         # 실제 응답 처리 (stream_handler가 container에 streaming 출력)
+#         container_messages, tool_args, agent_answer = stream_handler(
+#             container,
+#             agent,
+#             {"messages": [("human", user_input)]},
+#             config,
+#         )
+
+#         # 메시지 기록 저장
+#         add_message("user", user_input)
+#         for tool_arg in tool_args:
+#             add_message(
+#                 "assistant",
+#                 tool_arg["tool_result"],
+#                 "tool_result",
+#                 tool_arg["tool_name"],
+#             )
+#         add_message("assistant", agent_answer)
+
+        
+#         # with st.chat_message("assistant"):
+#         #     container = st.empty()
+#         #     container_messages, tool_args, agent_answer = stream_handler(
+#         #         container,
+#         #         agent,
+#         #         {"messages": [("human", user_input)]},
+#         #         config,
+#         #     )
+#         #     add_message("user", user_input)
+#         #     for tool_arg in tool_args:
+#         #         add_message(
+#         #             "assistant",
+#         #             tool_arg["tool_result"],
+#         #             "tool_result",
+#         #             tool_arg["tool_name"],
+#         #         )
+#         #     add_message("assistant", agent_answer)
+#     else:
+#         warning_msg.warning("개인정보 입력을 완료해주세요.")
