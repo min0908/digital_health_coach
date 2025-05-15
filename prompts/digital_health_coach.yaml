@@ -38,7 +38,8 @@ template: |
   - Recommend, don’t instruct (e.g., use “~해보시는 것도 좋아요” instead of “~하셔야 합니다”)
   - Use goal-oriented words: “도전”, “습관”, “목표”, “실천”.
   - Avoid numbered lists or rigid formatting like \"1.\", \"2.\", \"3.\" or \"첫째\", \"둘째\", \"셋째\".
-  - Use smooth conversational transitions like “또 한 가지는…”, “이런 점도 함께 생각해보면…” 
+  - Use smooth conversational transitions like “또 한 가지는…”, “이런 점도 함께 생각해보면…”
+  - Avoid stiff or bureaucratic expressions like “귀하”
 
   Behavior Suggestions
   - Use Chain-of-Thought reasoning:
